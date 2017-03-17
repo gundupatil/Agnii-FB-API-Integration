@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+.activity {
+	padding:20px;
+padding-top:0px;
+border-top-style:solid;
+border-top-width:thin;
+border-top-color:#CCC;
+height:280px;
+/*background:#EFF1D7;*/
+cursor:pointer;
+}
+
+
+#galleryBlur{
+background-color:rgba(0,0,0,0.8);
+position:fixed;
+top:0px;
+left:0px;
+z-index:1;
+}
+
+#gallery{
+position:fixed;	
+margin-top:50px;
+width:800px;
+z-index:2;
+}
+
+
+.activityTitle{
+padding:0px;	
+margin:0px;
+}
+
+h1{
+padding:0px;	
+margin-left:0px;
+margin-right:0px;
+margin-top:5px;
+margin-bottom:10px;
+}
+
+.thumbImg{
+height:200px;	
+}
+
+
+.activity:hover {
+	padding:20px;
+padding-top:0px;
+border-top-style:solid;
+border-top-width:thin;
+border-top-color:#CCC;
+background:#FBCABF;
+
+}
+
+
+.activityImageLeft {
+float:left;	
+padding-right:25px; 
+
+}
+
+
+.activityImageRight {
+float:right;	
+padding-left:25px;	
+}
+
+.activityDescription {
+padding:25px;	
+padding-top:10px;
+}
+
+#drumCircles {
+margin-top:25px;	
+}
+
+#theatre {
+height:360px;	
+}

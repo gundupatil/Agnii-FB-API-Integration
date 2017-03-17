@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'NyalaRegular';
+    src: url('assets/fonts/nyala.eot');
+    src:local('nyala'),
+	    url('assets/fonts/nyala.eot') format('embedded-opentype'),
+         url('assets/fonts/nyala.woff') format('woff'),
+         url('assets/fonts/nyala.ttf') format('truetype'),
+         url('assets/fonts/nyala.svg#NyalaRegular') format('svg');
+}
+
+p {
+	text-indent:20px;	
+}
+
+h1{
+font-family:Arial, Helvetica, sans-serif;
+	color:#C42311;
+	font-weight:100;
+	font-size:xx-large;
+	font-family:"NyalaRegular";
+}
+
+
+.normalLink{
+color:#C42311;
+}
+
+
+
+.normalLink:hover{
+color:#F2502C;
+}
+
+.cite{
+margin-top:-10px;	
+}
+
+
+#designedBy{
+float:right;	
+margin-top:-20px;
+}
+
+#designedByImg {
+width:150px;	
+}
+
+
+#footer{
+	margin-top:20px;
+	width:800px;
+}
+#footerWrapper{
+width:850px;
+margin-left:auto;
+margin-right:auto;	
+}
+
+a {
+text-decoration:none;
+color:inherit;	
+}
+
+body{
+background:#E6E6E6;
+font-family:Arial, Helvetica, sans-serif;
+padding-bottom:15px;
+}
+
+#bgSeperator{
+background:#FFF;
+width:850px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#wrapper{
+	padding:25px;
+}
+
+#logo {
+width:200px;
+margin-left:auto;
+margin-right:auto;
+	
+}
+#logoPNG {
+width:200px;
+}
+
+#navbar{
+width:800px;
+	margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+
+.navbarItems{
+	padding:30px;
+	font-family:"NyalaRegular";
+	font-size:xx-large;
+	color:#666666;
+}
+#lastItem{
+padding-right:0px;	
+}
+
+.navbarItems:hover{
+	
+	color:#F2502C;
+}
+
+.navbarItems:active{
+	
+	color:#C42311;
+}
+
+#currentPage{
+		color:#C42311;
+}
