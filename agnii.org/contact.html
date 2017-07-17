@@ -27,6 +27,30 @@
 
 
 <body onLoad="loadHeader(); loadSocial()">
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1080790055335188',
+      xfbml      : true,
+      version    : 'v2.9'
+    });
+    FB.AppEvents.logPageView();
+	init();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+   
+   function init(){
+	
+   }
+</script>
 <div id="bgSeperator">
 <div id="wrapper">
 <div id="header">
@@ -35,6 +59,7 @@
 <div id="contactSection">
 <div id="wrapper2">
 <h1> Contact Agnii </h1>
+<div class="fb-comment-embed" data-href="https://www.facebook.com/zuck/posts/10102577175875681?comment_id=1193531464007751&amp;reply_comment_id=654912701278942" data-width="560" data-include-parent="false"></div>
 <div id="contactDetails">
 Saravana Dhanapal
 <br>

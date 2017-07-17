@@ -1,14 +1,23 @@
 // JavaScript Document
 
 
-var navItems = ["home", "about", "activities", "contact", "media"];
-var navURLs = ["index.html", "about.html", "activities.html", "contact.html", "media.html"];
+var navItems = ["home", "about", "activities", "contact", "media", "gallery"];
+var navURLs = ["index.html", "about.html", "activities.html", "contact.html", "media.html", "gallery.html"];
 
 function loadSocial(){
 document.getElementById('social').innerHTML = '<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fagniiartforall&amp;width=350&amp;height=258&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;show_border=true&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:350px; height:258px;" allowTransparency="true" id="fbIframe"></iframe>';	
 	
 }
 
+//FB.api(
+ // '/rudrayya003/feed?limit=30&format=json',
+  //'GET',
+  //{},
+ // function(response) {
+      // Insert your code here
+	  
+//  }
+//);
 
 
 function loadHeader(){
