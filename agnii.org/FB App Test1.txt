@@ -1,0 +1,12 @@
+app id:296305374163845
+secrete key:592ddaba928a5a21404e5a6a75ae9524
+access token:EAAENfPiSc4UBACuqTRv979aq5aeUN7BGS8F0iD8mAS9zcUUwHiHfkXV2LJHQq0n8l7Fo83Lr99BzML7lOHzLuDsn9fpkEhPqxtFCxRtl6DALSGdgylZBf1VICqZBmpafNDZBIrLdVGBZCwv9WKhSbyZBQgiGTx8m4gJW5qlZBIo1cgX0VDl7ZBLUA66Qo2DPMQS054ZBCErh0wZDZD
+Get Request performed with: /rudrayya003?fields=access_token
+now in post method we are going to do this
+https://graph.facebook.com/oauth/access_token?             
+    client_id=APP_ID&
+    client_secret=APP_SECRET&
+    grant_type=fb_exchange_token&
+    fb_exchange_token=EXISTING_ACCESS_TOKEN
+long lived access token:EAAENfPiSc4UBAATc9PtUCblwQEK2vH7G7tlM9bCJQuaBEwlNnH099d4TKZCUwZAQgrsJ6rfcLZCLBx9ZAyu5cp86LNrGjKLZBISP2WnZCgJqVEt0bsLoGxC7GJNXQMPbpqZCMVxmvW5qCZAcNSlgGyjNbmJyc3TcsvBuxth6d16rtMEsm4hwrZCC9
+got from exchanging old token. 
