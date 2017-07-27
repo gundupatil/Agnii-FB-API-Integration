@@ -9,11 +9,7 @@ permalink: >
 published: true
 post_date: 2017-07-25 18:52:11
 ---
-[wpghs target='view' type='link' text='Here is my post on GitHub'] [Here is my post on GitHub][1] 
-    $wpghs_post = new WordPress_GitHub_Sync_Post( $id );
-    $url = $wpghs_post->github_view_url();
-
-<style type="text/css">
+[wpghs target='view' type='link' text='Here is my post on GitHub'] [Here is my post on GitHub][1] <style type="text/css">
   textarea, iframe {<br />       border: 2px solid #ddd;<br />       height: 100px;<br />       width: 100%;<br />    }<br />
 </style>
 
