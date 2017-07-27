@@ -9,6 +9,8 @@ permalink: >
 published: true
 post_date: 2017-07-25 18:52:11
 ---
+[wpghs target='view' type='link' text='Here is my post on GitHub']
+<a href="https://github.com/USERNAME/REPO/blob/master/_posts/YOURPOST.md">Here is my post on GitHub</a>
 <style type="text/css">
     textarea, iframe {<br />
        border: 2px solid #ddd;<br />
