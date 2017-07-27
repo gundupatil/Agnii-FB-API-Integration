@@ -9,38 +9,36 @@ permalink: >
 published: true
 post_date: 2017-07-25 18:52:11
 ---
-[wpghs target='view' type='link' text='Here is my post on GitHub']
-<a href="https://github.com/USERNAME/REPO/blob/master/_posts/YOURPOST.md">Here is my post on GitHub</a>
+[wpghs target='view' type='link' text='Here is my post on GitHub'] [Here is my post on GitHub][1] 
+    $wpghs_post = new WordPress_GitHub_Sync_Post( $id );
+    $url = $wpghs_post->github_view_url();
+
 <style type="text/css">
-    textarea, iframe {<br />
-       border: 2px solid #ddd;<br />
-       height: 100px;<br />
-       width: 100%;<br />
-    }<br />
+  textarea, iframe {<br />       border: 2px solid #ddd;<br />       height: 100px;<br />       width: 100%;<br />    }<br />
 </style>
+
 <table border="0" width="100%" cellspacing="5" cellpadding="5">
-<tbody>
-<tr>
-<td scope="col" width="50%"></td>
-<td scope="col" align="left" width="50%"><input type="button" value="Run Code" /></td>
-</tr>
-<tr>
-<td><form><strong>Code</strong>
-<textarea id="sourceCode" name="sourceCode">&lt;br /&gt;
-&lt;html&gt;&lt;br /&gt;
-&lt;head&gt;&lt;br /&gt;
-&lt;title&gt;Hello&lt;/title&gt;&lt;br /&gt;
-&lt;/head&gt;&lt;br /&gt;
-&lt;body&gt;&lt;/p&gt;
-&lt;h1&gt;Hello!&lt;/h1&gt;
-&lt;p&gt;Write HTML, CSS or JavaScript code here and click 'Run Code'.&lt;/p&gt;
-&lt;p&gt;&lt;/body&gt;&lt;br /&gt;
-&lt;/html&gt;&lt;br /&gt;
-                </textarea></form></td>
-<td><strong>Output</strong><iframe id="targetCode" name="targetCode" width="300" height="150"></iframe></td>
-</tr>
-</tbody>
+  <tbody>
+    <tr>
+      <td scope="col" width="50%">
+      </td>
+      
+      <td scope="col" align="left" width="50%">
+        <input type="button" value="Run Code" />
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+      </td>
+      
+      <td>
+        <strong>Output</strong><iframe id="targetCode" name="targetCode" width="300" height="150"></iframe>
+      </td>
+    </tr>
+  </tbody>
 </table>
+
 <script type="text/javascript">
 	function runCode()
 	{
@@ -54,3 +52,5 @@ post_date: 2017-07-25 18:52:11
 	}
 	runCode();
 </script>
+
+ [1]: https://github.com/USERNAME/REPO/blob/master/_posts/YOURPOST.md
