@@ -10,32 +10,43 @@ published: true
 post_date: 2017-07-25 18:52:11
 ---
 
-
-
+ 
 <style type="text/css">
-    textarea, iframe {       
-                         border: 2px solid #ddd;
-                         height: 600px;       
-                         width: 100%;   
-                       }
+    textarea, iframe {
+       border: 2px solid #ddd;
+       height: 500px;
+       width: 100%;	  
+    }
 </style>
-<table border="0" width="100%" cellspacing="5" cellpadding="5">
-  <tbody>
-   <tr>
-    <td scope="col" width="50%"></td>
-      <td scope="col" align="left" width="50%"><input type="button" value="Run Code" /></td>
-   </tr>
-<tr>
-   <td><form><strong>Code</strong>
-      <textarea id="sourceCode" name="sourceCode">
-         Write HTML, CSS or JavaScript code here and click 'Run Code'.
-      </textarea></form>
-  </td>
-   <td><strong>Output</strong>
-       <iframe id="targetCode" name="targetCode" width="300" height="150"></iframe></td>
-</tr>
-</tbody>
-</table>
+
+<table width="100%" border="0" cellspacing="5" cellpadding="5">
+    <tr>
+        <td width="50%" scope="col">&nbsp;</td>
+        <td width="50%" align="left" scope="col">
+            <input onclick="runCode();" type="button" value="Run Code">
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            <form>
+                <strong>Code</strong>
+                <textarea name="sourceCode" id="sourceCode">
+<html>
+<head>
+<title>Hello</title>
+</head>
+<body>
+<h1>Hello!</h1>
+<p>Write HTML, CSS or JavaScript code here and click 'Run Code'.</p>
+</body>
+</html>
+                </textarea>
+            </form>
+        </td>
+        <td><strong>Output</strong><iframe name="targetCode" id="targetCode"></iframe></td>
+    </tr>
+</table>  
+
 <script type="text/javascript">
 	function runCode()
 	{
