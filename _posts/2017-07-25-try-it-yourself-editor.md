@@ -12,7 +12,6 @@ post_date: 2017-07-25 18:52:11
 
 
 
-
 <style type="text/css">
     textarea, iframe {       
                          border: 2px solid #ddd;
@@ -21,25 +20,19 @@ post_date: 2017-07-25 18:52:11
                        }
 </style>
 <table border="0" width="100%" cellspacing="5" cellpadding="5">
-<tbody>
+  <tbody>
+   <tr>
+    <td scope="col" width="50%"></td>
+      <td scope="col" align="left" width="50%"><input type="button" value="Run Code" /></td>
+   </tr>
 <tr>
-<td scope="col" width="50%"></td>
-<td scope="col" align="left" width="50%"><input type="button" value="Run Code" /></td>
-</tr>
-<tr>
-<td><form><strong>Code</strong>
-<textarea id="sourceCode" name="sourceCode">&lt;br /&gt;&lt;br /&gt;
-&lt;html&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;head&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;title&gt;Hello&lt;/title&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;/head&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;body&gt;&lt;/p&gt;&lt;br /&gt;
-&lt;h1&gt;Hello!&lt;/h1&gt;&lt;br /&gt;
-&lt;p&gt;Write HTML, CSS or JavaScript code here and click 'Run Code'.&lt;/p&gt;&lt;br /&gt;
-&lt;p&gt;&lt;/body&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;/html&gt;&lt;br /&gt;&lt;br /&gt;
-                </textarea></form></td>
-<td><strong>Output</strong><iframe id="targetCode" name="targetCode" width="300" height="150"></iframe></td>
+   <td><form><strong>Code</strong>
+      <textarea id="sourceCode" name="sourceCode">
+         Write HTML, CSS or JavaScript code here and click 'Run Code'.
+      </textarea></form>
+  </td>
+   <td><strong>Output</strong>
+       <iframe id="targetCode" name="targetCode" width="300" height="150"></iframe></td>
 </tr>
 </tbody>
 </table>
